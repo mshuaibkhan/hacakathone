@@ -1,0 +1,45 @@
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    font-size: medium;
+  }
+footer {
+    height: 100px;
+    padding: 25px;
+  }
+
+  .bg-4 {
+    
+    background-color: #1c1d1d;
+    color: #9c9c9c;
+  }
+
+.carousel-inner img {
+    width: 100%; /* Set width to 100% */
+    margin: auto;
+    min-height:200px;
+}
+
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none; 
+  }
+}
+.sliderImg{
+
+    width: 100%;
+}
+
+.card-img{
+    width: 100%;
+    height: 100% ;
+}
+
+.card-container{
+    width: 30%;
+
+}
+
+.checked {
+  color: orange;
+}

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>FOOD ON</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link rel="stylesheet" href="customer.css">
+  
+</head>
+
+
+
+
+<body>
+ 
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+         <ul>
+          <li class="active"><a href="#">Home</a></li>
+    </div>
+  </nav>
+  
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="images/rest1.jpg"  width="50%" height="200px">
+        <div class="carousel-caption">
+          <h1>Are you hungry?</h1>
+        </div>      
+      </div>
+
+      <div class="item">
+        <img src="images/rest2.jpg" width="50%" height="200px">
+        <div class="carousel-caption">
+          <h1>Order Food NOW!</h1>
+        </div>      
+      </div>
+
+      <div class="item">
+        <img src="images/rest3.jpg" width="50%" height="200px">
+        <div class="carousel-caption">
+          <h1>Get the Best Deals.</h1>
+        </div>      
+      </div>
+
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div>
+<br><br><br>
+  
+<div class="container text-center">    
+  <h2>Choose The FOOD TYPE</h2>
+
+<br><br><br><br><br>
+
+
+  <div class="row">
+
+    <div class="col-sm-4">
+      <div class="card" style="width: 100%;">
+        <img src="images/pakiRest.jpg" class="card-img-top card-img" height="200px">
+        <div class="card-body">
+          <h2 class="card-title">PAKISTANI FOODS </h2>
+          <h5><span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span></h5>
+            <button type="button" onclick="redicpaki()" class="btn btn-primary btn-lg">CHOOSE FOOD</button>
+        </div>
+      </div> 
+    </div>
+
+    <div class="col-sm-4"> 
+      <div class="card" style="width: 100%;">
+        <img src="images/stakeRest.jpg" class="card-img-top card-img" alt="...">
+        <div class="card-body">
+          <h2 class="card-title">STAKE</h2>
+          <h5><span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star "></span>
+            <span class="fa fa-star"></span></h5>
+            <button type="button" onclick="redicstk()" class="btn btn-primary btn-lg">CHOOSE FOOD</button>
+        </div>
+      </div>    
+    </div>
+
+    <div class="col-sm-4">
+      <div class="card" style="width: 100%;">
+        <img src="images/chineseRest.jpg" class="card-img-top card-img" alt="...">
+        <div class="card-body">
+          <h2 class="card-title">CHINESE FOODS</h2>
+          <h5><span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star "></span>
+            <span class="fa fa-star"></span></h5>
+           <a href="dishes/chinese.html"></a> <button type="button" onclick="redicChinese()" class="btn btn-primary btn-lg"> CHOOSE FOOD </button>
+        </div>
+      </div>
+     </div>
+    </div>
+
+
+
+  </div>
+</div><br>
+
+<!-- <footer class="container-fluid text-center"> -->
+ 
+ 
+    <footer class="container-fluid bg-4 text-center">
+      <h2>UI design by SHUAIB</h2>
+    </footer>
+ 
+<!-- </footer> -->
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+<script src="customer.js"></script>
+</body>
+</html>
